@@ -5,12 +5,10 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Scanner escaner= new Scanner(System.in);
-        
-        System.out.println("Introduce la cantidad:");
+        Scanner escaner = new Scanner(System.in);
+        System.out.println("Introduce la cantidad");
         float cantidad = escaner.nextFloat();
 
-        
         operativa_cuenta(cantidad);
     }
 
